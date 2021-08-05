@@ -4,7 +4,7 @@ apply plugin: 'signing'
 apply plugin: 'checkstyle'
 
 group 'com.anjlab.android.iab.v3'
-version '1.2.0'
+version '1.5.0'
 
 android {
     compileSdkVersion 30
@@ -82,12 +82,12 @@ uploadArchives {
             name 'Android In-App Billing v4 Library'
             packaging 'aar'
             description 'A lightweight implementation of the current Android In-app Billing Version 4.'
-            url 'https://github.com/anjlab/android-inapp-billing-v3'
+            url 'https://github.com/gauraviitr/android-inapp-billing-v3'
 
             scm {
-                url 'scm:git@github.com:anjlab/android-inapp-billing-v3.git'
-                connection 'scm:git@github.com:anjlab/android-inapp-billing-v3.git'
-                developerConnection 'scm:git@github.com:anjlab/android-inapp-billing-v3.git'
+                url 'scm:git@github.com:gauraviitr/android-inapp-billing-v3.git'
+                connection 'scm:git@github.com:gauraviitr/android-inapp-billing-v3.git'
+                developerConnection 'scm:git@github.com:gauraviitr/android-inapp-billing-v3.git'
             }
 
             licenses {
